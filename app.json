@@ -1,0 +1,48 @@
+{
+    "name": "QYTHON",
+    "description": "تنصيب بوت استخراج جلسات تيرمكس و بايوجرام ",
+    "logo": "https://telegra.ph/file/07d56431c4090e681e999.png",
+    "keywords": [
+        "python3",
+        "telegram",
+        "session",
+        "stringbot",
+        "telegram-bot",
+        "pyrogram",
+        "telethon"
+    ],
+    "repository": "https://github.com/QYTHON/Session",
+    "env": {
+      "API_ID": {
+        "description": "ضع هنا الايبي ايدي الخاص بك",
+        "value": "",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "ضع هنا الايبي هاش الخاص بك",
+        "value": "",
+        "required": true
+      },
+      "BOT_TOKEN": {
+        "description": "ضع هنا توكن البوت الذي صنعته",
+        "value": "",
+        "required": true
+      },
+      "OWNER_ID": {
+        "description": "ضع هنا ايدي حساب مطور البوت",
+        "value": "",
+        "required": true
+      },
+      "MONGO_DB_URI": {
+        "description": "اكتب رابط المونجو راسلني تيليجرام للاستفسار @HO888",
+        "value": "",
+        "required": true
+      }
+    },
+    "buildpacks": [
+          {
+              "url": "heroku/python"
+          }
+      ],
+      "stack": "container"
+  }
